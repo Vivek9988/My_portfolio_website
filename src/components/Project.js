@@ -6,7 +6,7 @@ import ReactPlayer from "react-player";
 import NotAvailable from "./NotAvailable";
 
 const Project = () => {
-  
+
   const project2 = [
     {
       url: "/assets/e-com/ecom_1.png",
@@ -17,9 +17,9 @@ const Project = () => {
     {
       url: "/assets/e-com/ecom_3.png",
     },
-    
+
   ];
-  
+
 
   return (
     <div className="w-full bg-backgroundDark-0" id="projects">
@@ -29,7 +29,7 @@ const Project = () => {
         <SubHeader name="Projects" />
         {/* List */}
         {/* Mini Twitter */}
-        
+
         {/* Proshop*/}
         <div className="rounded-lg flex flex-col md:flex-row border-2 border-dark2 mt-10 p-4">
           {/* Image and Links */}
@@ -40,10 +40,13 @@ const Project = () => {
               </h1>
               <div>
                 <div className="flex gap-x-3 ml-6">
-                  
                   <IconCover
                     icon={<FaGithub />}
                     link="https://github.com/Vivek9988/e-commerce-in-React"
+                  />
+                  <IconCover
+                    icon={<FaLink />}
+                    link="https://example.com/project-link"
                   />
                 </div>
               </div>
@@ -60,7 +63,7 @@ const Project = () => {
                   HTML5
                 </div>
                 <div className="rounded text-gray-400 border border-gray-600 px-1 text-xs">
-                  Tailwind 
+                  Tailwind
                 </div>
                 <div className="rounded text-gray-400 border border-gray-600 px-1 text-xs">
                   Javascript
@@ -94,9 +97,6 @@ const Project = () => {
             </div>
           </div>
         </div>
-
-        
-        
       </div>
     </div>
   );
