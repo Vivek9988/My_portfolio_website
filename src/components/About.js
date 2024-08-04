@@ -21,7 +21,7 @@ const About = () => {
             {"Hello, I'm "}
             <TypeAnimation
               sequence={[
-                "Vivek Raj ", // Updated name
+                "Vivek", // Updated name
                 1000,
                 "Raj", // Updated name
                 1000,
